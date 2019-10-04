@@ -49,7 +49,7 @@ public static void main( String[] args )
 {
 	ArrayList<Integer> numbers = new ArrayList<Integer>();
 	PrimeCollection p = new PrimeCollection(numbers);
-    p.initRandom(100, 1000);
+    p.initRandom(1000, 2000);
     System.out.println(p.numbers);  
     System.out.println(p.isPrime(15)); 
     p.printprimes();
