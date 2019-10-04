@@ -1,0 +1,32 @@
+﻿Yohan aidan
+
+Exercice 1------------------------------------------------------------------
+Version de Maven
+Apache Maven 3.6.0
+
+Commande -CP: Classpath est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute. 
+
+groupId : cette balise permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
+artifactId : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
+
+ Qu'est-ce que le groupId/artifactId ?
+
+Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet.
+
+L'artifactId est l'identifiant du projet au sein de ce groupe.
+
+L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).
+
+Le dossier target contient classes et maven-status
+Contenu du repertoire src : dossier main et test et pom.xml
+
+Exercice 2
+
+1) il n’y a aucun attribut manifest,
+
+exercice 3
+1) cela transforme sysout en System.out.println();
+2) cela propose la possibilité entre cree une foction toSTr ou toString
+3) Créer la fonction main
+4) Crée les getters et setters de toto
+4) cela selectionne toute les occurences
