@@ -30,13 +30,13 @@ exercice 3
 2) cela propose la possibilité entre cree une foction toSTr ou toString
 3) Créer la fonction main
 4) Crée les getters et setters de toto
-5) cela selectionne toute les occurences
+5) cela selectionne toute les occurencesAppTest
 
 TD2---------------------------------------------------------------------------------------------
 exercice 1
 2)les fichier ayant recu des changements dignes d'interet par rapport à la version précédentes sont le ficher pom.xml et PrimeCollection.java
 5) on peut observer les modifications effectuées dans le terminal.
-9)git diffhash-commit-1 hash-commit-2: on peut observer les modifications effectuées dans le terminal entre les 2 commit comparés
+9)git diffhash-commit-1 hash-commit-2: on peut observAppTester les modifications effectuées dans le terminal entre les 2 commit comparés
 
 Exercice 2
 3) gitk represente le fait que les deux depots sont synchronisés par un message: "master-remote/origine/master"
@@ -51,4 +51,8 @@ astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour
 6)le fichierREPONSES.txt contient seulement les midifications apportées au fichier cloné.
 7)En apportant des modifications sur la meme ligne du fichier REPONSES.txt cela aurait alors créer un conflit et il aurait fallut choisir entre les 2 modifications.
 
+EXERCICE 3
+2) On observe une fenetre Junit qui s'ouvre et qui affiche un test valide.
+Si on change true par false le test n'est plus valide
+La methode assertTrue sert a comparer un objet avec une valeur predefinie.
 
