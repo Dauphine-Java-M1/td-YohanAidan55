@@ -1,6 +1,7 @@
 ﻿Yohan aidan
-Salututututut
-Exercice 1------------------------------------------------------------------
+
+TD1------------------------------------------------------------------------
+Exercice 1
 Version de Maven
 Apache Maven 3.6.0
 
@@ -17,7 +18,7 @@ L'artifactId est l'identifiant du projet au sein de ce groupe.
 
 L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).
 
-Le dossier target contient classes et maven-statusgit clone https://github.com/Dauphine-Java-M1/tds-nom.git clone-de-javaavance
+Le dossier target contient classes et maven-status
 Contenu du repertoire src : dossier main et test et pom.xml
 
 Exercice 2
@@ -29,7 +30,25 @@ exercice 3
 2) cela propose la possibilité entre cree une foction toSTr ou toString
 3) Créer la fonction main
 4) Crée les getters et setters de toto
-4) cela selectionne toute les occurences
+5) cela selectionne toute les occurences
+
+TD2---------------------------------------------------------------------------------------------
+exercice 1
+2)les fichier ayant recu des changements dignes d'interet par rapport à la version précédentes sont le ficher pom.xml et PrimeCollection.java
+5) on peut observer les modifications effectuées dans le terminal.
+9)git diffhash-commit-1 hash-commit-2: on peut observer les modifications effectuées dans le terminal entre les 2 commit comparés
+
+Exercice 2
+3) gitk represente le fait que les deux depots sont synchronisés par un message: "master-remote/origine/master"
+5) le terminal affiche le message :
+error: impossible de pousser des références vers 'https://github.com/Dauphine-Java-M1/td-YohanAidan55.git'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+
+6)le fichierREPONSES.txt contient seulement les midifications apportées au fichier cloné.
+7)En apportant des modifications sur la meme ligne du fichier REPONSES.txt cela aurait alors créer un conflit et il aurait fallut choisir entre les 2 modifications.
 
 
-chocolat
