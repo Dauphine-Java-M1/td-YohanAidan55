@@ -17,7 +17,7 @@ L'artifactId est l'identifiant du projet au sein de ce groupe.
 
 L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).
 
-Le dossier target contient classes et maven-status
+Le dossier target contient classes et maven-statusgit clone https://github.com/Dauphine-Java-M1/tds-nom.git clone-de-javaavance
 Contenu du repertoire src : dossier main et test et pom.xml
 
 Exercice 2
@@ -30,3 +30,6 @@ exercice 3
 3) Créer la fonction main
 4) Crée les getters et setters de toto
 4) cela selectionne toute les occurences
+
+
+chocolat
