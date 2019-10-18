@@ -21,12 +21,17 @@ public class Point {
 	 public static void main( String[] args )
 	    { 
 		 Point p1=new Point(1,2);
+		 
 		 Point p2=p1;
 		 Point p3=new Point(1,2);
 		 ArrayList<Point> list = new ArrayList<Point>();
 		 list.add(p1);
 		 System.out.println(p1.isSameAs(p2));
 		 System.out.println(p1.isSameAs(p3));
+		 LigneBrisee l = new LigneBrisee(5);
+		 l.add(p1);
+		 l.add(p2);
+		 System.out.println(l.ligne[1].y);
 	    }
 
 	 
