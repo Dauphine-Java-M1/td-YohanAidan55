@@ -1,4 +1,4 @@
-﻿Yohan aidan
+Yohan aidan
 
 TD1------------------------------------------------------------------------
 Exercice 1
@@ -55,4 +55,5 @@ EXERCICE 3
 2) On observe une fenetre Junit qui s'ouvre et qui affiche un test valide.
 Si on change true par false le test n'est plus valide
 La methode assertTrue sert a comparer un objet avec une valeur predefinie.
+macbook
 
