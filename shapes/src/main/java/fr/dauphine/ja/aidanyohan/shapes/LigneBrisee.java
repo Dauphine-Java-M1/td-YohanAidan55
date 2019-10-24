@@ -1,15 +1,45 @@
 package fr.dauphine.ja.aidanyohan.shapes;
 
+import java.util.LinkedList;
+
 public class LigneBrisee {
 
-	 Point[] ligne;
-	
+	 /*Point[] lesPoints;
+	 int n=0;
+	 int compt=0;
+	 
 	public LigneBrisee(int max)
 	{
-		ligne=new Point[max];
+		lesPoints=new Point[max];
 	}
 	public void add (Point p) {
-		this.ligne[ligne.length-1]=p;
+		lesPoints[compt]=p;
+        compt++;
 			}
+	
+	public void pointCapacity() {
+		System.out.println(lesPoints.length);
+	}
+	public void nbPoint() {
+		System.out.println(compt);
+	}
+	public boolean contains(Point p) {
+		for (Point unPoint:lesPoints) {
+			if(unPoint == p) {
+				return true;
+			}
+		}
+		return false;
+	}*/
+	
+	LinkedList<Point> lesPoints;
+	
+	public LigneBrisee()
+	{
+		this.lesPoints = new LinkedList<Point>();
+	}
+	
+	
+	
 }
 
