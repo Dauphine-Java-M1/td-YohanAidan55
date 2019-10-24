@@ -56,4 +56,8 @@ EXERCICE 3
 Si on change true par false le test n'est plus valide
 La methode assertTrue sert a comparer un objet avec une valeur predefinie.
 macbook
+3)si on depasse la capacité fixer on obtient une erreur.
+il faudrait modifier la capacité du tableau des l'ajout d'un point.
+4)si on met null a l'appel de contain cela affiche une errreur, si on fait add(null)
+6)pointCapacity n'a plus besoin d'exister car une likedlist n'a pas de limite, nbpoint est remplacé par size(), et contains existe deja en tant que methode de linkedlist.
 
