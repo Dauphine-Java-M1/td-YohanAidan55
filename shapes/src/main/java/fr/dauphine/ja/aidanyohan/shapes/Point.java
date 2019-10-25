@@ -17,6 +17,14 @@ public class Point {
     public boolean isSameAs(Point pt) {
     	return this.x==pt.x && this.y==pt.y;
 	}
+    public Point translate(int dx, int dy) {
+    
+		return new Point(this.x+dx,this.y+dy);
+	}
+    public String toString() { 
+    	return   x +","+ y;
+    	}
+    
 	 
 	 public static void main( String[] args )
 	    { 
@@ -51,5 +59,20 @@ public class Point {
 		 }
 	 System.out.println(l.lesPoints.contains(p5));
 	 System.out.println("il y a " + l.lesPoints.size()+" point dans la ligne brisé");
-	 }
+	 Point p=new Point(1,2);
+	 Circle c=new Circle(p,1);
+	 Circle c2=new Circle(p,2);
+	 c2.translate(1,1);
+	 System.out.println(c+" "+c2);
+	 
+	 
+	 Circle c3=new Circle(new Point(1,2), 1);
+	 c3.translate(1,1);
+
+	 System.out.println(c3);
+	 
+	    }
+	 
+	 
+	 
 }

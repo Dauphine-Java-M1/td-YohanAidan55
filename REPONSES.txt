@@ -61,3 +61,9 @@ il faudrait modifier la capacité du tableau des l'ajout d'un point.
 4)si on met null a l'appel de contain cela affiche une errreur, si on fait add(null)
 6)pointCapacity n'a plus besoin d'exister car une likedlist n'a pas de limite, nbpoint est remplacé par size(), et contains existe deja en tant que methode de linkedlist.
 
+Exercice 4
+1)La méthode peut renvoyer un nouveau point correspondant à la translation du point de départ.
+5)le probleme est que les 2 cercles sont translatés car ils utilisent le meme point.
+La solution est de retourner un nouveau poit lors de la translation d'un point.
+6) Cela ne modifie par les coordonnées du cercle car on appelle la fonction translate de la classe Point pour modifier le cercle. Il faut utiliser directement la fonction translate de la classe Circle.
+
