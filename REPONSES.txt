@@ -66,4 +66,9 @@ Exercice 4
 5)le probleme est que les 2 cercles sont translatés car ils utilisent le meme point.
 La solution est de retourner un nouveau poit lors de la translation d'un point.
 6) Cela ne modifie par les coordonnées du cercle car on appelle la fonction translate de la classe Point pour modifier le cercle. Il faut utiliser directement la fonction translate de la classe Circle.
+9) On utilise Static car cette fonction n’appartient pas à un Circle en particulier.
 
+EXERCICE 5
+1)oui
+
+4) Il faut redéfinir la méthode toString pour afficher les caractéristiques de ring.

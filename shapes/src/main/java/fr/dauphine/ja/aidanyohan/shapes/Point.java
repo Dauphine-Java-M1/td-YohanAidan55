@@ -14,6 +14,13 @@ public class Point {
 		this.x=pt.x;
 		this.y=pt.y ;
 	}
+	public int  getX() {
+		return this.x;
+	};
+	public int  getY() {
+		return this.y;
+	};
+	
     public boolean isSameAs(Point pt) {
     	return this.x==pt.x && this.y==pt.y;
 	}
@@ -60,6 +67,7 @@ public class Point {
 	 System.out.println(l.lesPoints.contains(p5));
 	 System.out.println("il y a " + l.lesPoints.size()+" point dans la ligne brisé");
 	 Point p=new Point(1,2);
+	 Point p8=new Point(3,50);
 	 Circle c=new Circle(p,1);
 	 Circle c2=new Circle(p,2);
 	 c2.translate(1,1);
@@ -70,6 +78,7 @@ public class Point {
 	 c3.translate(1,1);
 
 	 System.out.println(c3);
+	 System.out.println(c.contains(p8));
 	 
 	    }
 	 
