@@ -22,6 +22,9 @@ return  "rayon: "+rayon+" et centre: "+p+ "et surface "+this.surface();
 public Point getCenter() { 
 return   this.p;
 }
+public int getRadius() { 
+return   this.rayon;
+}
 public Boolean contains(Point pt) {
 	if(Math.sqrt(Math.pow(pt.getX()-p.getX(), 2)+Math.pow(p.getY()-pt.getY(), 2))<rayon) {
 		return true;	
