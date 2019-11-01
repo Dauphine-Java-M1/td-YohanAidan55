@@ -1,74 +1,110 @@
-Yohan aidan
+Yohan aidan en duo avec Binyamin Berguig
 
-TD1------------------------------------------------------------------------
-Exercice 1
-Version de Maven
+TD00------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exercice 1:
+4) Version de Maven 
 Apache Maven 3.6.0
 
-Commande -CP: Classpath est un paramètre passé à une machine virtuelle Java qui définit le chemin d'accès au répertoire où se trouvent les classes et les packages Java afin qu'elle les exécute. 
-
-groupId : cette balise permet d'identifier un groupe qui a créé le projet. Cette clé permet d'organiser et de retrouver plus facilement et rapidement le projet.
-artifactId : cette balise indique un nom unique utilisé pour nommer les artifacts à construire.
-
- Qu'est-ce que le groupId/artifactId ?
-
-Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet.
+5) Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet.
 
 L'artifactId est l'identifiant du projet au sein de ce groupe.
 
-L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar).
+L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar). 
 
-Le dossier target contient classes et maven-status
-Contenu du repertoire src : dossier main et test et pom.xml
+6) Repertoire target contient le dossier classes et maven-status
 
-Exercice 2
+8) class path est un parametre passe a une machine virtuelle java qui definit le chemin d'acces au repertoire ou se trouvent les classes et les packages java afin qu'elle les execute
 
-1) il n’y a aucun attribut manifest,
+Exercice 2:
+1) erreur :  aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar
 
-exercice 3
-1) cela transforme sysout en System.out.println();
-2) cela propose la possibilité entre cree une foction toSTr ou toString
-3) Créer la fonction main
-4) Crée les getters et setters de toto
-5) cela selectionne toute les occurencesAppTest
+Exercie 3:
+3) cela transforme sysout en System.out.println();
 
-TD2---------------------------------------------------------------------------------------------
-exercice 1
-2)les fichier ayant recu des changements dignes d'interet par rapport à la version précédentes sont le ficher pom.xml et PrimeCollection.java
-5) on peut observer les modifications effectuées dans le terminal.
-9)git diffhash-commit-1 hash-commit-2: on peut observAppTester les modifications effectuées dans le terminal entre les 2 commit comparés
+4) cela donne la possibilite de choisir entre la fonction toStr ou toString
 
-Exercice 2
-3) gitk represente le fait que les deux depots sont synchronisés par un message: "master-remote/origine/master"
-5) le terminal affiche le message :
-error: impossible de pousser des références vers 'https://github.com/Dauphine-Java-M1/td-YohanAidan55.git'
-astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
-astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
-astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
-astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
-astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+5) creer la fonction main
 
-6)le fichierREPONSES.txt contient seulement les midifications apportées au fichier cloné.
-7)En apportant des modifications sur la meme ligne du fichier REPONSES.txt cela aurait alors créer un conflit et il aurait fallut choisir entre les 2 modifications.
+6) permet de creer les getter et les setters toto
 
-EXERCICE 3
-2) On observe une fenetre Junit qui s'ouvre et qui affiche un test valide.
-Si on change true par false le test n'est plus valide
-La methode assertTrue sert a comparer un objet avec une valeur predefinie.
-macbook
-3)si on depasse la capacité fixer on obtient une erreur.
-il faudrait modifier la capacité du tableau des l'ajout d'un point.
-4)si on met null a l'appel de contain cela affiche une errreur, si on fait add(null)
-6)pointCapacity n'a plus besoin d'exister car une likedlist n'a pas de limite, nbpoint est remplacé par size(), et contains existe deja en tant que methode de linkedlist.
+7) selectionne toute les occurences.
 
-Exercice 4
-1)La méthode peut renvoyer un nouveau point correspondant à la translation du point de départ.
-5)le probleme est que les 2 cercles sont translatés car ils utilisent le meme point.
-La solution est de retourner un nouveau poit lors de la translation d'un point.
-6) Cela ne modifie par les coordonnées du cercle car on appelle la fonction translate de la classe Point pour modifier le cercle. Il faut utiliser directement la fonction translate de la classe Circle.
-9) On utilise Static car cette fonction n’appartient pas à un Circle en particulier.
 
-EXERCICE 5
-1)oui
+TD00 Bis---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4) Il faut redéfinir la méthode toString pour afficher les caractéristiques de ring.
+Exercice 1:
+2) les fichiers ayant recu des changements dignes d’intérêt par rapport à la version précédentes sont : pom.xml et PrimeCollection.java
+
+5) on observe les modifications de code sur le terminal 
+
+Exercice 2:
+3) Gitk represente le fait que les deux dépots sont synchronisés par un message: "master-remote/origine/master"
+
+5) le terminal affice le message : 	To https://github.com/Dauphine-Java-M1/td-binyaminberguig.git
+					 ! [rejected]        master -> master (fetch first)
+					error: impossible de pousser des références vers 'https://github.com/Dauphine-Java-M1/td-binyaminberguig.git'
+					astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+					astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+					astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+					astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+					astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+6) le fichier REPONSES.txt contient seulement les modification apportées au fichier cloné
+
+7) En apportant des modifications sur la même ligne du fichier REPONSES.txt cela aurait créer un conflit et git nous aurait proposer de choisir entre les deux modifications apportées.
+
+
+Exercice 3:
+2) On observe une fenêtre JUnit qui s'ouvres et qui affiche un test valide 
+En remplacant true par false, le test n'est plus valide
+La methode AssertTrue sert a compare un objet avec une valeur prédéfinit.
+
+
+
+TD01---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exercice 1:
+1) cela fonctionne car java instancie un constructeur par defaut dés la création d'une classe
+
+2) Cela ne fonctionne pas car les variables x et y sont en private et donc non accessible dans une autre classe.
+Pour y remedier il faudrait mettre les attributs en public.
+
+3) Il faut déclarer ses variables en private de façon à ce que le programme qui instancie la classe ne puisse ni voir ni modifier ces variables pour des raisons de sécurité. 
+
+4) Un accesseur permet d'acceder a un attribut private de la classe.
+Dans notre cas, on doit le faire car on veut que la classe TestPoint accede au attribut x et y.
+
+5) Le probleme est que l'on a redefinit le constructeur pour qu'il prenne des paramétres.
+
+6) Cela ne fonctionne toujours pas.
+
+7) il faut creer une variable static et l'instancier dans le constructeur afin qu'il soit incrementé a chaque creation de Point.
+
+8) Le compilateur sait quel constructeur appeler en fonction des parametres que on lui fournit.
+
+Exercice 2:
+1) Cela affiche true et false. le comparateur == prend en compte directement le referencement et non la valeur. true car p1 et p2 renvoi au meme objet tandis que p3 en est un troisiéme.
+
+2) l'index de p2 existe alors que p2 n'a pas été ajouté.
+resolution: sachant que indexOf utilise equals qui utilise == donc il faut changer de fonction et utiliser isSameAs().
+
+Exercice 3 :
+3) si l'on depasse la capacité fixée on obtient l'erreur suivante :"Index 4 out of bounds for length 4" il faudrait modifier la capacite en meme temps que l'on ajoute un point en redeclarant le tableau
+  
+5) si l'on met null en parametre de contains on obtient une erreur de meme lors de l'ajout 
+
+6) pointCapacity n'a plus de raison d'être car une linkdlist n'a pas de limite, nbPoints devient la size() de notre collection et contains existe deja en tant que methode de LinkdList
+
+Exercice 4 :
+1) on peut soit renvoyer le nouveau point soit juste modifier les coordonées de ce dernier.
+
+5) le probleme est que les 2 cercles sont translatés car ils utilisent le meme point, la solution est de retourne un nouveau point lors de la translation d'un point.
+
+6) cela ne translate pas le cercle car on appelle la fonction translate de la classe point; pour modifier le cercle il faut utiliser directement la fonction translate de Circle.
+
+
+
+
+
+
+
+
+
