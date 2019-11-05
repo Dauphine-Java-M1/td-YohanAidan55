@@ -100,6 +100,29 @@ Exercice 4 :
 
 6) cela ne translate pas le cercle car on appelle la fonction translate de la classe point; pour modifier le cercle il faut utiliser directement la fonction translate de Circle.
 
+Exercice 5 :
+1) oui il semble interessant de faire un heritage car un anneau est composé de 2 cercles.
+
+4) cela n'affiche pas le contenu des objets cercle et point de l'anneau
+
+TD02---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exercice 1:
+1) Graphics permettant à une application de dessiner sur des composants réalisés sur différents périphériques, ainsi que sur des images hors écran.
+Graphics2D étend la classe Graphics pour fournir un contrôle plus sophistiqué de la géométrie, des transformations de coordonnées, de la gestion des couleurs et de la présentation du texte. Il s'agit de la classe fondamentale pour le rendu de formes, de textes et d'images à deux dimensions sur la plate-forme Java (tm).
+JFrame est une classe permettant de developper une application
+JPanel est le composant de type conteneur (contenant bouton cases a cocher...)
+
+2) frame.setSize(new Dimension(500,500)): permet d'initialise une fenetre avec une dimension Dimension 
+frame.setVisible(true) : indique si la fenetre doit etre affiche ou non.
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE): permet d'afficher la croix permettant de fermer la fenetre.
+MyDisplay d = new MyDisplay(): Cet objet assure le dialogue entre l'application et le système graphique du système d'exploitation utilisé.
+frame.add(d);
+
+5) elle est appele a chaque fois que le component doit etre redessiné.
+
+6) AWT est un ensemble de composants d'interface utilisateur lourds (ce qui signifie qu'ils sont des wrappers pour les objets du système d'exploitation) tandis que Swing construit sur AWT avec un ensemble plus riche de composants légers.
+
+
 
 
 
