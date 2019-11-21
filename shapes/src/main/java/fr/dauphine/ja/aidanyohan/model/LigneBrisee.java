@@ -1,4 +1,4 @@
-package fr.dauphine.ja.aidanyohan.shapes;
+package fr.dauphine.ja.aidanyohan.model;
 
 import java.util.LinkedList;
 

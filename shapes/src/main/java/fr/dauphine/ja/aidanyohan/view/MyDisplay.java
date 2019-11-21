@@ -1,4 +1,4 @@
-package view;
+package fr.dauphine.ja.aidanyohan.view;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

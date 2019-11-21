@@ -1,8 +1,8 @@
-package fr.dauphine.ja.aidanyohan.shapes;
+package fr.dauphine.ja.aidanyohan.model;
 
 import java.util.ArrayList;
 
-public class Point {
+public class Point  {
 
 	private int x,y;
 	
