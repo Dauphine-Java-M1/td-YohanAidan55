@@ -79,8 +79,8 @@ public class Point  {
 
 	 System.out.println(c3);
 	 System.out.println(c.contains(p8));
-	 Ring ring= new Ring (new Point(1,5),5,2);
-	 System.out.println(ring);
+	 
+	
 	    }
 	 
 	 

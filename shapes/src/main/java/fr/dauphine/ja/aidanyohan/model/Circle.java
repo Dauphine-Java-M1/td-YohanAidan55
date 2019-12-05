@@ -1,13 +1,16 @@
 package fr.dauphine.ja.aidanyohan.model;
 
+import fr.dauphine.ja.aidanyohan.view.CircleDrawer;
 
-public class Circle {
+public class Circle extends Shape {
 Point p;
 int rayon;
 
 public Circle(Point pt, int r) {
+	super();
 	this.p=pt;
 	this.rayon=r;
+	super.drawer=new CircleDrawer(this);
 }
 public void translate(int dx, int dy) {
 	this.p=this.p.translate(dx, dy);
@@ -26,12 +29,10 @@ return   this.p;
 public int getRadius() { 
 return   this.rayon;
 }
-public Boolean contains(Point pt) {
-	if(Math.sqrt(Math.pow(pt.getX()-p.getX(), 2)+Math.pow(p.getY()-pt.getY(), 2))<rayon) {
-		return true;	
-	}
-	return false;
-	}
+public boolean contains(Point p) {
+
+	return Math.sqrt((p.getX()-p.getX())*(p.getX()-p.getX())+(p.getY()-p.getY()))<rayon;
+}
 
 public static boolean contains(Point p, Circle...circles){
 	for(Circle c : circles){
