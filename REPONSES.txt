@@ -105,7 +105,8 @@ Exercice 5 :
 
 4) cela n'affiche pas le contenu des objets cercle et point de l'anneau
 
-TD02---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TD02---------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------
 Exercice 1:
 1) Graphics permettant à une application de dessiner sur des composants réalisés sur différents périphériques, ainsi que sur des images hors écran.
 Graphics2D étend la classe Graphics pour fournir un contrôle plus sophistiqué de la géométrie, des transformations de coordonnées, de la gestion des couleurs et de la présentation du texte. Il s'agit de la classe fondamentale pour le rendu de formes, de textes et d'images à deux dimensions sur la plate-forme Java (tm).
@@ -126,7 +127,9 @@ frame.add(d);
 
 
 
-
+TD3
+Exercice 1:
+3)Il faut implémenter l'interface iterable 
 
 
 
